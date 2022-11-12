@@ -59,14 +59,16 @@ public class Cliente implements Serializable {
 		this.address = address;
 	}
 	
-	public Cliente(Integer id, String name, String birthDate, String cpf, String rg, String address) {
-		super();
-		this.id = id;
+	public Cliente(String name, String birthDate, String cpf, String rg, String address) {
 		this.name = name;
 		this.birthDate = birthDate;
 		this.cpf = cpf;
 		this.rg = rg;
 		this.address = address;
 	}
-
+	
+	public Cliente() {
+		super();
+	}
+	
 }
